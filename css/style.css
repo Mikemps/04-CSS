@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+}
+header {
+    background-color: #e71020;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+header .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+header .logo img {
+    height: 90px;
+    width: auto;
+}
+header nav {
+    margin-top: 10px;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a:hover {
+    background-color: #ad0818;
+    border-radius: 5px; 
+}
+
+footer {
+    background-color: #e71020;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    padding: 5px;
+}
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+footer nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+footer nav ul li a:hover {
+    background-color: #ad0818;
+    border-radius: 5px; 
+}
+
+.filmes {
+    display: flex; /* Define um contêiner flexível */
+    justify-content: space-around; /* Distribui os filmes com espaço ao redor */
+    flex-wrap: wrap; /* Permite que os filmes quebrem para uma nova linha, se necessário */
+    margin-top: 20px;
+}
+.filme {
+    width: 30%; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+.filme img {
+    max-width: 100%; 
+    height: 50%; 
+}
+.sinopse {
+    margin-top: 10px; /* Espaço entre a imagem e a sinopse */
+    font-size: 16px; /* Tamanho da fonte da sinopse */
+    color: #333; /* Cor do texto */
+}
