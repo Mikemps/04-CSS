@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+}
+
+.container {
+    width: 80%; /* Define a largura do contêiner principal */
+    max-width: 1200px; /* Limita a largura máxima do contêiner */
+    margin: 20px auto; /* Adiciona margens superiores e inferiores, e centraliza automaticamente o contêiner */
+    background-color: #fff; /* Cor de fundo do contêiner */
+    padding: 20px; /* Adiciona espaçamento interno ao contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do contêiner */
+    border-radius: 10px; /* Adiciona cantos arredondados ao contêiner */
+}
+
+.filmes {
+    display: flex; /* Define um contêiner flexível */
+    justify-content: space-around; /* Distribui os filmes com espaço ao redor */
+    flex-wrap: wrap; /* Permite que os filmes quebrem para uma nova linha, se necessário */
+    margin-top: 20px;
+}
+
+.filme {
+    width: 30%; /* Define a largura de cada filme */
+    margin-bottom: 20px; /* Espaço inferior entre os filmes */
+    text-align: center; /* Centraliza a imagem e o texto */
+}
+
+.filme img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner do filme */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 3px solid #000; /* Adiciona um contorno de 3px de espessura e preto ao redor da imagem */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao contorno (opcional) */
+}
+
+.sinopse {
+    margin-top: 10px; /* Espaço entre a imagem e a sinopse */
+    font-size: 16px; /* Tamanho da fonte da sinopse */
+    color: #333; /* Cor do texto */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+header .logo img {
+    height: 50px;
+    width: auto;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}

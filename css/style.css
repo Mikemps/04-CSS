@@ -2,23 +2,23 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    background-color: #f4f4f4; /* Cor de fundo da página */
+    justify-content: center; 
+    background-color: #f4f4f4;
 }
 
 .container {
-    width: 80%; /* Define a largura do contêiner principal */
-    max-width: 1200px; /* Limita a largura máxima do contêiner */
-    margin: 20px auto; /* Adiciona margens superiores e inferiores, e centraliza automaticamente o contêiner */
-    background-color: #fff; /* Cor de fundo do contêiner */
-    padding: 20px; /* Adiciona espaçamento interno ao contêiner */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do contêiner */
-    border-radius: 10px; /* Adiciona cantos arredondados ao contêiner */
+    width: 80%; 
+    max-width: 1200px; 
+    margin: 20px auto;
+    background-color: #fff; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
 }
 .filmes {
-    display: flex; /* Define um contêiner flexível */
-    justify-content: space-around; /* Distribui os filmes com espaço ao redor */
-    flex-wrap: wrap; /* Permite que os filmes quebrem para uma nova linha, se necessário */
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 .filme {
@@ -31,9 +31,35 @@ body {
     height: 50%; 
 }
 .sinopse {
-    margin-top: 10px; /* Espaço entre a imagem e a sinopse */
-    font-size: 16px; /* Tamanho da fonte da sinopse */
+    margin-top: 10px; 
+    font-size: 16px; 
+    color: #333;
+}
+
+.resumos ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+.resumos a {
+    text-decoration: none; /* Remove o sublinhado dos links */
     color: #333; /* Cor do texto */
+    display: inline-flex; /* Usa flexbox para alinhar o ícone e o texto */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+.resumos img {
+    width: 20px; /* Define a largura do ícone */
+    margin-right: 5px; /* Espaço entre o ícone e o texto */
+}
+
+.youtube {
+    display: inline-block;
+    vertical-align: middle;
+}
+.youtube img {
+    height:  22px;
+    width: auto;
 }
 
 header {
@@ -104,19 +130,19 @@ footer nav ul li a:hover {
     background-color: #ad0818;
     border-radius: 5px; 
 }
-footer nav ul li .instagram {
+.instagram {
     display: inline-block;
     vertical-align: middle;
 }
-footer nav ul li .instagram img {
+.instagram img {
     height:  20px;
     width: auto;
 }
-footer nav ul li .github {
+.github {
     display: inline-block;
     vertical-align: middle;
 }
-footer nav ul li .github img {
+.github img {
     height:  20px;
     width: auto;
 }
