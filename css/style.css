@@ -3,9 +3,7 @@ body {
     padding: 0;
     text-align: center;
     justify-content: center; 
-    background-color: #f4f4f4;
 }
-
 .container {
     width: 80%; 
     max-width: 1200px; 
@@ -14,6 +12,7 @@ body {
     padding: 20px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px; 
+    font-family: 'noto serif', sans-serif;
 }
 .filmes {
     display: flex; 
@@ -24,49 +23,40 @@ body {
 .filme {
     width: 30%; 
     margin-bottom: 20px; 
-    text-align: center; 
 }
 .filme img {
     max-width: 100%; 
     height: 50%; 
 }
 .sinopse {
+    font-family: 'Lucida Sans Unicode', sans-serif;
     margin-top: 10px; 
     font-size: 16px; 
     color: #333;
 }
-
 .resumos ul {
-    list-style: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
 }
 .resumos a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: #333; /* Cor do texto */
-    display: inline-flex; /* Usa flexbox para alinhar o ícone e o texto */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
+    text-decoration: none; 
+    color: #333; 
+    display: inline-flex; 
+    align-items: center; 
 }
-
+.resumos a:hover {
+    background-color: #a7a4a4;
+    border-radius: 5px; 
+}
 .resumos img {
-    width: 20px; /* Define a largura do ícone */
-    margin-right: 5px; /* Espaço entre o ícone e o texto */
+    width: 25px; 
+    margin-right: 2px; 
 }
-
-.youtube {
-    display: inline-block;
-    vertical-align: middle;
-}
-.youtube img {
-    height:  22px;
-    width: auto;
-}
-
 header {
     background-color: #e71020;
     color: black;
     padding: 10px 0;
-    text-align: center;
 }
 header .logo {
     display: inline-block;
@@ -84,7 +74,6 @@ header nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center;
 }
 header nav ul li {
     display: inline;
@@ -99,7 +88,51 @@ header nav ul li a:hover {
     background-color: #ad0818;
     border-radius: 5px; 
 }
-
+.container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.container li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 100%;
+}
+h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+form p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover {
+    background-color: #45a049;
+}
 footer {
     background-color: #e71020;
     color: black;
@@ -125,25 +158,18 @@ footer nav ul li {
 footer nav ul li a {
     color: black;
     text-decoration: none;
+    
 }
 footer nav ul li a:hover {
     background-color: #ad0818;
     border-radius: 5px; 
 }
-.instagram {
-    display: inline-block;
+footer  a{
+    display: inline-flex;
     vertical-align: middle;
 }
-.instagram img {
+footer a img{
     height:  20px;
     width: auto;
+    margin-right: 5px;
 }
-.github {
-    display: inline-block;
-    vertical-align: middle;
-}
-.github img {
-    height:  20px;
-    width: auto;
-}
-
